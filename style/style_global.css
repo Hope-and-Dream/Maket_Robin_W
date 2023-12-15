@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: "Sen", "sans-serif";
+    display: block;
+}
+
+.grey {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.green {
+    color: #3CC74E;
+}
+
+.blue {
+    color: #609BFF;
+}
+
+.pink {
+    color: #E95D90;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,96 @@
+.experience {
+    padding: 120px 72px;
+}
+
+.experience>h2 {
+    color: #8491A0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.experience>p {
+    margin-top: 8px;
+    max-width: 690px;
+    color: white;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experience_list {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience_item {
+    max-width: 416px;
+    min-height: max-content;
+    margin-right: 24px;
+}
+
+.experience_item:last-child {
+    margin-right: 0px;
+}
+
+.experience_number {
+    color: #8491A0;
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+.experience_item>h3 {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 22px;
+}
+
+.experience_description {
+    color: #8491A0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0px;
+}
+
+@media (max-width:1080px) {
+    .experience {
+        padding: 80px 40px;
+    }
+}
+
+@media (max-width:750px) {
+    .experience {
+        padding: 48px 20px;
+    }
+
+    .experience>p {
+        font-size: 32px;
+    }
+
+    .experience_list {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .experience_item {
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+
+    .experience_item>h3 {
+        margin-bottom: 16px;
+    }
+}

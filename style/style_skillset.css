@@ -1,0 +1,95 @@
+.skillset {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 120px 72px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas: "skillset_description product visual"
+                         "skillset_description motion photography";
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.skillset_description {
+    grid-area: skillset_description;
+    padding-right: 48px;
+    
+}
+
+.skillset_description>h2 {
+    color: white;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.skillset_description>p {
+    color: #8491A0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.skillset_items>img {
+    width: 32px;
+    height: 32px;
+}
+
+.skillset_items>h3 {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.skillset_items>p {
+    color: #8491A0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@media (max-width:1080px)  {
+    .skillset {
+        padding: 80px 40px;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+        grid-template-areas: "skillset_description skillset_description" 
+                             "product visual"
+                             "motion photography";
+    }
+}
+
+@media (max-width:750px)  {
+    .skillset {
+        height: max-content;
+        padding: 64px 20px 0px 20px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 0px;
+    }
+
+    .skillset_description {
+        padding: 14px 0px 21px 0px;
+    }
+
+    .skillset_description>h2 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .skillset_description>p {
+        font-size: 18px;
+    }
+
+    .skillset_items {
+        margin-top: 48px;
+    }
+}
