@@ -1,6 +1,6 @@
 ## Мой первый учебный проект :relieved:
-Верстка одностраничного сайта дизайнера по макету Figma. [Ссылка на макет]​(https://www.figma.com/file/wgnOweycvHvoOsF0MggjAo/St.Proj.-3%2F3?node-id=12%3A69&mode=dev) 
-[Ссылка на макет](https://www.figma.com/file/wgnOweycvHvoOsF0MggjAo/St.Proj.-3%2F3?node-id=12%3A69&mode=dev "открыть макет")
+Верстка одностраничного сайта дизайнера по макету Figma. [Ссылка на макет]​(https://www.figma.com/file/wgnOweycvHvoOsF0MggjAo/St.Proj.-3%2F3?node-id=12%3A69&mode=dev "открыть макет") 
+
 
 Проект реализован на HTML и CSS по принципам адаптивной верстки: минимальная ширина экрана, для которой все отображается корректно - 360px. 
 Позиционирование элементов осуществляется как при помощи grid контейнеров, так и при помощи flex-box.
